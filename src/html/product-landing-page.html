@@ -1,0 +1,110 @@
+<head>
+    <style>
+        body {
+            background: beige;
+        }
+
+        @media (max-height: 800px) {
+            header {
+                text-align: center;
+                background: grey;
+                width: 100%;
+                position: fixed;
+                top: 0px;
+                padding-bottom: 20px;
+            }
+        }
+
+        h1 {
+            font-family: seravek;
+        }
+
+        #header-img {
+            width: 10%;
+            padding-bottom: 15px;
+        }
+
+        #form {
+            text-align: center;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            color: black;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            font-family: allura;
+            padding-top: 180px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        #teas {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <h1> Tea Street International </h1>
+            <img id="header-img"
+                src="https://www.publicdomainpictures.net/pictures/280000/velka/herbal-tea-1543726976IdE.jpg"
+                alt="filled tea cup">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#header">Header</a> &nbsp&nbsp&nbsp&nbsp&nbsp
+                <a class="nav-link" href="#about">About</a>
+                &nbsp&nbsp&nbsp&nbsp&nbsp
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <p> tea from around the globe</p>
+    <div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email"> Get more info in your inbox! <br>
+                <input id="email" type="email" name="email" placeholder="enter your email">
+                <input type="submit" id="submit"></>
+
+        </form>
+    </div>
+
+    <div id="about">
+        <h2>About Different Teas:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yq4ME1M620I" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            id="video"></iframe>
+    </div>
+
+    <div id="pricing">
+        <h2>Our Tea Pricing (USD):</h2>
+        <div id="teas">
+            <h3> English Breakfast Tea: $ lorem ipsum </h3> &nbsp&nbsp&nbsp&nbsp
+            <h3> Moroccan Mint Tea: $ lorem ipsum </h3>
+            &nbsp&nbsp&nbsp&nbsp
+            <h3> Taiwanese Bubble Tea: $ lorem ipsum </h3>
+            &nbsp&nbsp&nbsp&nbsp
+            <h3> Argentinian Maté Tea: $ lorem ipsum </h3>
+            <h3> Indian Masala Chai: $ lorem ipsum </h3>
+            &nbsp&nbsp&nbsp&nbsp
+            <h3> Japanese Matcha Tea: $ lorem ipsum </h3>
+            &nbsp&nbsp&nbsp&nbsp
+            <h3> Russian Black Tea: $ lorem ipsum </h3>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">  </script>
+
+</body>
